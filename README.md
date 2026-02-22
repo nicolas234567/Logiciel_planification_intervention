@@ -23,8 +23,23 @@ Et une gestion des comptes des techniciens.
 ## Structure des fichiers
 
 ```
--WindowsApp.sln
--Fixit.sql
+Logiciel_planification_intervention/
+├── Fixit.sql                        <- Script de creation de la base de donnees
+├── WindowsFormsAppFixIT.sln         <- Solution Visual Studio (point d'entree)
+└── WindowsFormsAppFixIT/
+    ├── Program.cs                   <- Point d'entree de l'application
+    ├── ClassItem.cs                 <- Modele de donnees
+    ├── App.config                   <- Configuration (chaine de connexion BDD)
+    ├── FormLogin.cs                 <- Page de connexion
+    ├── Form1.cs                     <- Page principale (ajout d'intervention)
+    ├── FormClient.cs                <- Gestion des clients
+    ├── FormProduit.cs               <- Gestion des produits
+    ├── FormHistorique.cs            <- Historique des interventions
+    ├── FormCreationCompte.cs        <- Creation de compte (admin uniquement)
+    ├── FormChangerMDP.cs            <- Changement de mot de passe
+    ├── FormBannirUtilisateur.cs     <- Suppression d'un utilisateur (admin)
+    ├── FormCategorie.cs             <- Gestion des categories
+    └── Properties/                  <- Ressources et parametres du projet
 ```
 ## Structure de l'application
 
