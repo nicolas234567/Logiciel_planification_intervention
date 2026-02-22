@@ -45,7 +45,7 @@ login/
 
 - Création de date préventive d'intervention selon la durée de cie moyenne d'un composant en utilisant la date depuis la dernière intervention dessus
 - Refus de créer une intervention a une date future
-- 
+
 ## Gestion des accès 
 
 - Page de login forcer pour accéder a l'application ou toute tentative d'évitement cause la fermeture du programme
