@@ -1,9 +1,15 @@
 # Logiciel de gestion des intervention des techniciens sur les machines
 
+## A quoi sert ce logiciel
+
+Ce logiciel permet une gestion claire des interventions (dates, prix, clients et produit concerné) leur création, historique et planification des futures interventions.
+La modification, ajout ou supression de clients et produits.
+Et une gestion des comptes des techniciens.
+
 ## Installation & lancement
 
-Installer visual studio 2022
-Installer SQL Maganer Server Studio (SMSS)
+- Installer visual studio 2022
+- Installer SQL Maganer Server Studio (SMSS)
 - Copier le contenu de fixit.sql et exécuté une requête dans SMSS pour générer la base de données
 - démarrer la base de données
 - Ouvrir WindowsApp.sln dans visual studio 
